@@ -110,7 +110,7 @@ nav a:hover:after {
 .intro-img {
   float: left;
   width: 46.25%;
-  animation: 1s cubic-bezier(0.42, 0, 0.49, 1.38) easeFromLeft;
+  animation: 1s cubic-bezier(0.73, 0.22, 0.96, 0.65) easeFromLeft;
 }
 @keyframes easeFromLeft {
   0% {
@@ -297,7 +297,6 @@ h4 {
 /* PRICING SECTION */
 
 .plan {
-  width: 360px;
   height: 510px;
   /* .plan2 has 30px margin on each side */
   width: calc((100% - 60px) / 3);
