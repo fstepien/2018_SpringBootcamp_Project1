@@ -21,7 +21,7 @@
             <div class="logo">Craft</div>
             <ul class="sspFont">
                 <li>
-                    <a href="index.html#home">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="#features">Features</a>
@@ -271,9 +271,12 @@
             </div>
             <div class="contact-form clearfix">
                 <form>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <textarea name="" id="messsage" cols="30" rows="10" placeholder="Message"></textarea>
+                    <label for="name" class="visuallyhidden">Name: </label>
+                    <input type="text" placeholder="Name" id="name">
+                    <label for="email" class="visuallyhidden">Email: </label>
+                    <input type="email" placeholder="Email" id="email">
+                    <label for="message" class="visuallyhidden">Message: </label>
+                    <textarea id="messsage" cols="30" rows="10" placeholder="Message" name="message"></textarea>
                     <button>Send Message</button>
                 </form>
             </div>
@@ -287,7 +290,8 @@
                 magna aliqua. Ut enim ad minim veniam.
             </p>
             <form class="clearfix wrapper">
-                <input type="email" placeholder="Your Email Address">
+                <label for="emailFooter" class="visuallyhidden">Email: </label>
+                <input type="email" placeholder="Your Email Address" id="emailFooter" name="emailFooter">
                 <input type="submit">
             </form>
             <ul>
